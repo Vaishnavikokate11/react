@@ -12,6 +12,7 @@ const [counter, setCounter] = useState(15)
 const addValue = () =>{
  // counter +=1;
  setCounter(counter + 1);
+//setCounter(prevCouter => prevCouter+1); //imporatant to interview question batch update the value is 19 then 21 then 23
  if(counter == 20){
    alert("Counter reached 20");
    setCounter(0);
