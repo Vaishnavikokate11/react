@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "name" : "Stranger Things",
+        "genre" : "Sci-Fi",
+        "seasons" : 4,
+        "rating" : 8.7,
+        "img_url" : "/images/stranger.jpg",
+        "watch_url": "https://www.netflix.com/in/title/80057281?source=35&fromWatch=true"
+    },
+    {
+        "id" : 2,
+        "name" : "The Witcher",
+        "genre": "Fantasy",
+        "seasons": 3,
+        "rating": 8.2,
+        "img_url": "/images/the witche.jpg",
+        "watch_url": "https://www.netflix.com/in/title/80189685"
+    },
+    {
+        "id": 3,
+        "name": "Money Heist",
+        "genre": "Crime",
+        "seasons": 5,
+        "rating": 8.3,
+        "img_url": "/images/money heist.jpg",
+        "watch_url": "https://www.netflix.com/in/title/80192098"
+    },
+    {
+        "id": 4,
+        "name": "Dark",
+        "genre": "Sci-Fi",
+        "seasons":3,
+        "rating": 8.8,
+        "img_url": "/images/dark.jpg",
+        "watch_url": "https://www.netflix.com/in/title/80100172"
+    }
+]
