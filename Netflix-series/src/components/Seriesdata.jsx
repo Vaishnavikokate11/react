@@ -6,15 +6,15 @@ const Seriesdata = ({data}) =>{
       <li>
         <div>
     <img src={img_url}
-          width="80%"
-          height="70%"
+          width="50%"
+          height="40%"
           alt={name}></img>
           </div>
       
       <h3>Name : {name}</h3>
-      <h3> Ratting : {rating}</h3>
-      <h3>Genre : {genre}</h3>
-      <h3>Seasons : {seasons}</h3>
+      <h4> Ratting : {rating}</h4>
+      <h4>Genre : {genre}</h4>
+      <h4>Seasons : {seasons}</h4>
       <a href={watch_url} target="_blank">
       {/*<button>{age >= 18 ? "Watch Now" : "Not Available"}</button>*/}
 

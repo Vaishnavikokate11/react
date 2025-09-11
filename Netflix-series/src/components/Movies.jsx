@@ -12,7 +12,7 @@ const Movies = ()=>{
     //     </ul>
   return (
     <>
-      <ul>
+      <ul className="grid grid-three--cols">
         {seriesData.map((curElement) => (
           <Seriesdata key={curElement.id} data={curElement}/>
         ))}
