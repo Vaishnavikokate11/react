@@ -1,5 +1,6 @@
 import Movies from "./components/Movies"
 import "./components/Netflix.css"
+import "./components/NetFlix.module.css";
 
 
 function App() {
