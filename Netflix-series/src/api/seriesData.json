@@ -2,9 +2,11 @@
     {
         "id" : 1,
         "name" : "Stranger Things",
-        "genre" : "Sci-Fi",
+        "genre" : "Sci-Fi, Horror , Drama , Suspense" , 
         "seasons" : 4,
         "rating" : 8.7,
+        "summary": "Stranger Things is a Netflix science fiction horror series set in the 1980s, about a group of friends and a mysterious girl with psychokinetic powers",
+        "cast": ["Winona Ryder, David Harbour, Millie Bobby Brown, Finn Wolfhard, "],
         "img_url" : "/images/stranger.jpg",
         "watch_url": "https://www.netflix.com/in/title/80057281?source=35&fromWatch=true"
     },
