@@ -1,0 +1,37 @@
+.main-div{
+    border-radius: 1rem;
+    color: blue;
+    align-items: center;
+    justify-content: center;
+
+}
+.g-div{
+    border-color: black;
+    border-width: 3rem;
+    color: black;
+    background-color: red;
+    font-size: large;
+    width: 80px;
+    height: 50px;
+}
+
+.p-div{
+    border-color: black;
+    border-width: 3rem;
+    background-color: rgb(67, 7, 231);
+    font-size: large;
+    width: 80px;
+    height: 50px;
+    color: black;
+}
+.c-div{
+    border-color: black;
+    border-width: 3rem;
+    color: black;
+    width: 80px;
+    height: 50px;
+    font-size: large;
+    background-color: brown;
+    align-items: center;
+    justify-content: center;
+}
