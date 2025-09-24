@@ -1,5 +1,6 @@
 //import { EventHandling } from "./components/EventHandling";
-import { EventPropogation } from "./components/EventPropogation";
+//import { EventPropogation } from "./components/EventPropogation";
+import { State } from "./components/hooks/State";
 //import { EventProps } from "./components/EventProps";
 //import Movies from "./components/Movies"
 import "./components/Netflix.css"
@@ -16,7 +17,8 @@ function App() {
       <Movies/>*/}
       {/*<EventHandling/>*/}
      {/* <EventProps/>*/}
-     <EventPropogation/>
+     {/*<EventPropogation/>*/}
+     <State/>
      
     </section>
   )
