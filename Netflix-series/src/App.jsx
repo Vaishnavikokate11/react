@@ -1,6 +1,8 @@
 //import { EventHandling } from "./components/EventHandling";
 //import { EventPropogation } from "./components/EventPropogation";
-import { State } from "./components/hooks/State";
+//import { DrivedState } from "./components/DrivedState";
+import { LiftingState } from "./components/LiftingState";
+//import { State } from "./components/hooks/State";
 //import { EventProps } from "./components/EventProps";
 //import Movies from "./components/Movies"
 import "./components/Netflix.css"
@@ -18,7 +20,9 @@ function App() {
       {/*<EventHandling/>*/}
      {/* <EventProps/>*/}
      {/*<EventPropogation/>*/}
-     <State/>
+     {/*<State/>*/}
+     {/*<DrivedState/>*/}
+     <LiftingState/>
      
     </section>
   )
