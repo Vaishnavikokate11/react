@@ -1,11 +1,4 @@
-*{
-    margin: 0px;
-    align-items: center;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-}
 html{
     font-size: 62.5%;
 }
@@ -30,39 +23,49 @@ h1{
   align-items: center;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  padding-top: 3%;
+  height: 100vh;
   background-image: linear-gradient(100deg, #001214, #001f29);
   color: white;
   transition: 0.3s linear;
-  overflow: hidden;
   justify-content: center;
+  width: 100vw;
 }
 
 .header{
-    padding-top: 10px;
     
+   
+    padding-bottom: 10%;
+    margin-bottom: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .form ,
-.datetime{
-  margin: 0px 1rem;
-  
+.date-time{
+  margin: 0px 20px;
+  color: white;
   min-height: 10vh;
   width: 100%;
+  font-size: large;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  justify-content: center;
   font-size: 3rem;
-  min-height: 25vh;
+  min-height: 10vh;
   width: 100%;
+  margin: 0;
 }
 
 section h1 {
+  margin: 0px 20rem;
   color: #fff;
   font-size: 4.8rem;
   text-align: center;
@@ -71,18 +74,26 @@ section h1 {
  .date-time {
   font-size: 2.4rem;
   text-align: center;
+  margin-bottom: 40px;
+  
+  font-weight: bold;
+
+  
 }
 
 form {
   display: flex;
   font-size: 1.7rem;
   justify-content: center;
+  align-items: center;
   margin: 15px 0;
   padding: 0.8rem;
   width: 100%;
+  
 }
 
 form input {
+  margin: 0px 20rem;
   padding: 10px;
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
@@ -91,7 +102,7 @@ form input {
   /* border-radius: 15; */
   border-top-left-radius: 17px;
   border-bottom-left-radius: 17px;
-  max-width: 700px;
+  max-width: 450px;
   transition: background-color 200ms ease-in-out;
   width: 125%;
   background-color: #f2f3f4;
@@ -108,6 +119,7 @@ form input::placeholder {
 }
 
 button {
+  
   border: none;
   outline: none;
   transition: box-shadow 200ms ease, background-color 200ms ease-in-out;
@@ -122,17 +134,18 @@ form button:hover {
 }
 
 form button {
+  margin-left: -8px ;
   padding: 10.8px;
   font-size: 17px;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  min-width: 110px;
+  min-width: 70px;
   background-color: #5dade2;
   color: var(--secondary-color);
 }
 
 span {
-  margin-right: 3.2rem;
+  margin-right: 5.2rem;
 }
 
 .myUnOrdList {
@@ -150,7 +163,7 @@ span {
 }
 
 .todo-item {
-  margin: 2.4rem;
+  margin: 2.4rem 2.4rem 3.4rem 17rem;
   /*word-wrap: break-word;
     */ /*flex-wrap: wrap;
     */
@@ -159,9 +172,9 @@ span {
   border-radius: 30px;
   transition: background-color 200ms ease-in-out;
   background-color: #f2f3f4;
-  min-width: 27rem;
-  max-width: 40rem;
-  padding: 1.2rem 3rem;
+  min-width: 45rem;
+  max-width: 50rem;
+  padding: 1.2rem 4rem 1.2rem 2.5rem;
   display: grid;
   grid-template-columns: 1fr 0.3fr 0.3fr;
   justify-content: start;
@@ -202,7 +215,7 @@ li span {
   background-color: #e74c3c;
 }
 
-/* .checkList {
+.checkList {
   text-decoration: line-through;
 }
 
@@ -211,6 +224,10 @@ li span {
 }
 
 .clear-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   background-color: #e74c3c;
   font-size: 1.6rem;
   padding: 1rem 2.2rem;
@@ -223,12 +240,6 @@ li span {
 
 .clear-btn:hover {
   background-color: #8d1407;
-} */ 
+} 
 
-/* section {
-  width: 100%;
-  margin-top: 10rem;
-  display: flex;
-  justify-content: center;
-} */
-
+ 
