@@ -1,11 +1,13 @@
-import { Todo } from "./projects/Todo/Todo"
+import { ShortCircuit } from "./projects/Todo/ShortCiecuit"
+//import { Todo } from "./projects/Todo/Todo"
 
 function App() {
   
 
   return (
     <>
-      <Todo/>
+     {/* <Todo/>*/}
+     <ShortCircuit/>
     </>
   )
 }
