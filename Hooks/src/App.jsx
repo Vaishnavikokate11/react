@@ -4,14 +4,20 @@
 //import './App.css'
 
 //import { Counter } from "./hooks/useState"
-import { Challenge } from "./hooks/useState/Challenge"
+//import { Challenge } from "./hooks/useState/Challenge"
+//import { Controller } from "./hooks/useState/Controller"
+//import { Registration } from "./hooks/useState/Registration"
+import { Login } from "./hooks/useState/Login"
 
 function App() {
   
   return (
     <>
     {/*<Counter/>*/}
-    <Challenge/>
+    {/*<Challenge/>*/}
+   {/*<Controller/>*/}
+    {/* <Registration/>*/}
+   <Login/>
     </>
   )
 }
