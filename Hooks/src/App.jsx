@@ -3,11 +3,14 @@
 //import viteLogo from '/vite.svg'
 //import './App.css'
 
+import { EffectChallenge } from "./hooks/UseEffect/EffectChallenge"
+
 //import { Counter } from "./hooks/useState"
 //import { Challenge } from "./hooks/useState/Challenge"
 //import { Controller } from "./hooks/useState/Controller"
 //import { Registration } from "./hooks/useState/Registration"
-import { Login } from "./hooks/useState/Login"
+//import { ReactUseEffect } from "./hooks/UseEffect"
+//import { Login } from "./hooks/useState/Login"
 
 function App() {
   
@@ -17,7 +20,9 @@ function App() {
     {/*<Challenge/>*/}
    {/*<Controller/>*/}
     {/* <Registration/>*/}
-   <Login/>
+    {/*<Login/>*/}
+    {/*<ReactUseEffect/>*/}
+    <EffectChallenge/>
     </>
   )
 }
