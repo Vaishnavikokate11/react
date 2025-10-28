@@ -3,7 +3,8 @@
 //import viteLogo from '/vite.svg'
 //import './App.css'
 
-import { EffectChallenge } from "./hooks/UseEffect/EffectChallenge"
+//import { EffectChallenge } from "./hooks/UseEffect/EffectChallenge"
+import { FetchDate } from "./hooks/UseEffect/HownotToFetchApi"
 
 //import { Counter } from "./hooks/useState"
 //import { Challenge } from "./hooks/useState/Challenge"
@@ -22,7 +23,8 @@ function App() {
     {/* <Registration/>*/}
     {/*<Login/>*/}
     {/*<ReactUseEffect/>*/}
-    <EffectChallenge/>
+    {/*<EffectChallenge/>*/}
+    <FetchDate/>
     </>
   )
 }
