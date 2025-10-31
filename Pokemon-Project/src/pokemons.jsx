@@ -43,6 +43,13 @@ export const Pokemons = () =>{
             <header>
                 <h1>Lets Catch Pokemon</h1>
             </header>
+            <div>
+                <ul className="cards">
+                    {pokemon.map((curPokemon) =>{
+                        return <li key={curPokemon.id}>{curPokemon.name}</li>
+                    })}
+                </ul>
+            </div>
         </section>
     )
 }
