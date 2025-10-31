@@ -1,9 +1,11 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import "./index.css"
 
 export const Pokemons = () =>{
+    const[pokemon, setPokemon] = useState([]);
 
     const Api = "https://pokeapi.co/api/v2/pokemon?limit=24";
+
     const fetchPokemon = async () =>{
         try {
             const res = await fetch(Api)
@@ -20,7 +22,7 @@ export const Pokemons = () =>{
 
     const detailResponse = await Promise.all(detailPokeonData)
     console.log(detailResponse);
-    
+    setPokemon(detailResponse)
     
             
         } catch (error) {
@@ -37,6 +39,10 @@ export const Pokemons = () =>{
         fetchPokemon();
     },[])
     return (
-        <h1>Helolo</h1>
+        <section className="container">
+            <header>
+                <h1>Lets Catch Pokemon</h1>
+            </header>
+        </section>
     )
 }
