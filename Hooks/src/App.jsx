@@ -3,8 +3,12 @@
 //import viteLogo from '/vite.svg'
 //import './App.css'
 
+//import { UseReff } from "./hooks/UseRef"
+import { UseIde } from "./hooks/UseId"
+import { ForwordRef } from "./hooks/UseRef/ForwordRef"
+
 //import { EffectChallenge } from "./hooks/UseEffect/EffectChallenge"
-import { FetchDate } from "./hooks/UseEffect/HownotToFetchApi"
+//import { FetchDate } from "./hooks/UseEffect/HownotToFetchApi"
 
 //import { Counter } from "./hooks/useState"
 //import { Challenge } from "./hooks/useState/Challenge"
@@ -24,7 +28,12 @@ function App() {
     {/*<Login/>*/}
     {/*<ReactUseEffect/>*/}
     {/*<EffectChallenge/>*/}
-    <FetchDate/>
+    {/*<FetchDate/>*/}
+
+    {/*<UseReff/>*/}
+
+    {/*<ForwordRef/>*/}
+    <UseIde/>
     </>
   )
 }
