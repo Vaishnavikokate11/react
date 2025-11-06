@@ -4,8 +4,11 @@
 //import './App.css'
 
 //import { UseReff } from "./hooks/UseRef"
-import { UseIde } from "./hooks/UseId"
-import { ForwordRef } from "./hooks/UseRef/ForwordRef"
+import { BioProvider } from "./hooks/ContextApi"
+import { About } from "./hooks/ContextApi/About"
+import { Home } from "./hooks/ContextApi/Home"
+//import { UseIde } from "./hooks/UseId"
+//import { ForwordRef } from "./hooks/UseRef/ForwordRef"
 
 //import { EffectChallenge } from "./hooks/UseEffect/EffectChallenge"
 //import { FetchDate } from "./hooks/UseEffect/HownotToFetchApi"
@@ -33,7 +36,11 @@ function App() {
     {/*<UseReff/>*/}
 
     {/*<ForwordRef/>*/}
-    <UseIde/>
+      {/*<UseIde/>*/}
+      <BioProvider>
+        <Home/>
+        <About/>
+      </BioProvider>
     </>
   )
 }
