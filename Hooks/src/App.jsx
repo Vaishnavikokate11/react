@@ -7,6 +7,7 @@
 import { BioProvider } from "./hooks/ContextApi"
 import { About } from "./hooks/ContextApi/About"
 import { Home } from "./hooks/ContextApi/Home"
+import { ReducerComp } from "./hooks/UseReducer"
 //import { UseIde } from "./hooks/UseId"
 //import { ForwordRef } from "./hooks/UseRef/ForwordRef"
 
@@ -37,10 +38,12 @@ function App() {
 
     {/*<ForwordRef/>*/}
       {/*<UseIde/>*/}
-      <BioProvider>
+      {/*<BioProvider>
         <Home/>
         <About/>
-      </BioProvider>
+      </BioProvider>*/}
+
+      <ReducerComp/>
     </>
   )
 }
