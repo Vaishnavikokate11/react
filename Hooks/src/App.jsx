@@ -4,12 +4,13 @@
 //import './App.css'
 
 //import { UseReff } from "./hooks/UseRef"
-import { BioProvider } from "./hooks/ContextApi"
-import { About } from "./hooks/ContextApi/About"
-import { Home } from "./hooks/ContextApi/Home"
-import { ReactMemo } from "./hooks/Memo/ReactMemo"
-import MemoParentComponent from "./hooks/Memo/UseMemo"
-import { ReducerComp } from "./hooks/UseReducer"
+//import { BioProvider } from "./hooks/ContextApi"
+//import { About } from "./hooks/ContextApi/About"
+//import { Home } from "./hooks/ContextApi/Home"
+//import { ReactMemo } from "./hooks/Memo/ReactMemo"
+import UseCallBack from "./hooks/Memo/UseCallBack"
+//import MemoParentComponent from "./hooks/Memo/UseMemo"
+//import { ReducerComp } from "./hooks/UseReducer"
 //import { UseIde } from "./hooks/UseId"
 //import { ForwordRef } from "./hooks/UseRef/ForwordRef"
 
@@ -49,7 +50,9 @@ function App() {
 
       {/*<ReactMemo/>*/}
 
-      <MemoParentComponent/>
+      {/*<MemoParentComponent/>*/}
+
+      <UseCallBack/>
     </>
   )
 }
